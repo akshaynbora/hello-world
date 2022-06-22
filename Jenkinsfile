@@ -4,7 +4,7 @@ agent any
      stage("Build")
 	   {
 	    steps{
-		    echo "We are in the build stage. Added the webhook"
+		    echo "We are in the build stage. Added the webhook. Time 10.21"
 		}
 	   }
 	 stage("Test")
