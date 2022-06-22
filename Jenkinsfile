@@ -4,7 +4,7 @@ agent any
      stage("Build")
 	   {
 	    steps{
-		    echo "We are in the build stage"
+		    echo "We are in the build stage.This is the edited"
 		}
 	   }
 	 stage("Test")
