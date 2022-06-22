@@ -4,7 +4,7 @@ agent any
      stage("Build")
 	   {
 	    steps{
-		    echo "We are in the build stage" >> newfile.txt
+		    echo "We are in the build stage"
 		}
 	   }
 	 stage("Test")
