@@ -5,6 +5,7 @@ agent any
 	   {
 	    steps{
 		    echo "We are in the build stage. Added the webhook. Time 10.21 again"
+		    sh 'mkdir -p /tmp/akshay'
 		}
 	   }
 	 stage("Test")
